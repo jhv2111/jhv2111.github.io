@@ -22,6 +22,12 @@ body {
         }
     }
 }
+.jumbotron {
+    background-color: white;
+    h1 {
+        color: black;
+    }
+}
 
 /* Responsive CSS */
 @media (max-width: 768px) {

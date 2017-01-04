@@ -16,6 +16,11 @@ body {
     padding-bottom: 0px;
     color: black; }
 
+.jumbotron {
+  background-color: white; }
+  .jumbotron h1 {
+    color: black; }
+
 /* Responsive CSS */
 @media (max-width: 768px) {
   .navbar .navbar-brand {
