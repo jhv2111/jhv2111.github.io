@@ -1,3 +1,31 @@
+$nav-height: 50px;
+
 body {
+    background-color: red;
+    padding-top: $nav-height;
+}
+.navbar {
     background-color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    .navbar-brand {
+        height: $nav-height;
+        color: black;
+        text-transform: uppercase;
+        font-size: 40px;
+    }
+    .navbar-nav {
+        &>li>a {
+            line-height: $nav-height;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            color: black;
+        }
+    }
+}
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+    .navbar .navbar-brand {
+        font-size: 25px;
+    }
 }
